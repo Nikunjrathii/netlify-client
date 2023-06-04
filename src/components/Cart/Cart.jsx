@@ -4,7 +4,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import "./Cart.scss";
 
 import CartItem from "./CartItem/CartItem";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Context } from "../../utils/context";
 import { makePaymentRequest } from "../../utils/api";
 const Cart = ({ setShowCart }) => {

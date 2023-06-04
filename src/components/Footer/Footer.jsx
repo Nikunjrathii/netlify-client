@@ -41,7 +41,7 @@ const Footer = () => {
         <div className="bottom-bar">
             <div className="bottom-bar-content">
                 <div className="text">BOATSTORE 2023 CREATED BY NIKUNJ RATHI .PREMIUM E-COMMERCE SOLUTIONS</div>
-                <img src={Payment}/>
+                <img alt="payment" src={Payment}/>
             </div>
         </div>
     </footer>;

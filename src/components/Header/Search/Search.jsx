@@ -33,7 +33,7 @@ setQuery(e.target.value);
             setShowSearch(false)
           }}>
             <div className="img-container">
-              <img src={prod}alt="image" />
+              <img src={prod}alt="search" />
               
             </div>
             <div className="prod-details">

@@ -5,7 +5,6 @@ import RelatedProducts  from './RelatedProducts/RelatedProducts'
 import {
     FaFacebookF,FaTwitter,FaInstagram,FaLinkedinIn,FaPinterest,FaCartPlus,
 } from "react-icons/fa"
-import prod from "../../assets/products/earbuds-prod-1.webp"
 import useFetch from "../../hooks/usFetch"
 import { useParams } from "react-router-dom";
 import { useContext, useState } from "react";
